@@ -22,9 +22,9 @@ pipeline {
                 
             }
         }
-          stage('test') {
+          stage('build') {
             steps {
-                echo 'test'
+                echo 'build'
                
             }
         }
